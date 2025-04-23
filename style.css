@@ -1,0 +1,727 @@
+body{
+  background-color: #dedede;
+  margin: 0;
+  width: 1517px;
+  height: 920px;
+  top: 31px;
+}
+
+.fitted_image{
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  width: auto;
+  height: 100px;
+  margin: -220px 0px 0px 0px;
+  padding-bottom: 1000px;
+  z-index: -1; 
+  background-image: url(assets/building_bg.png);
+  /* border: red 3px solid; */
+}
+
+/* NAVBAR */
+
+.navbar{
+  font-weight: 600;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  color: #111111;
+  text-decoration: none;
+  margin-top: -40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 160px;
+  /* border: red 3px solid; */
+}
+
+
+.navbar a{
+  margin-right: -50px;
+  margin-top: -10px;
+  margin-bottom: -20px;
+  padding: 35px;
+  color: #111111;
+  text-decoration: none;
+  /* border: 3px solid red; */
+}
+
+.navbar  a:hover{
+  color: #3A75D4;
+  transition: 0.2s linear;
+}
+
+.logo_navbar{
+  position: relative;
+  top: 45px;
+  margin-left: 15px;/*
+  border: 3px solid red;*/
+}
+
+/* HOME */
+
+.Poppins{
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  /* border: 3px solid red; */
+  margin-top: 14rem;
+}
+
+#HIMTI_STUDY_TOUR{
+  font-size: 96px;
+  font-weight: 600;
+  margin-top: 100px;
+  /* border: 3px solid red; */
+}
+
+.Poppins p{
+  color: #747373;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 35px;
+  margin-top: -50px;
+  margin-right: 0;
+  margin-left: 0;
+  max-width: 848px;
+  /* border: 3px solid red; */
+}
+
+#get_started{
+  font-weight: 600;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  color: #FBFBFB;
+  text-decoration: none;
+  margin-bottom: 500px;
+  border: 3px solid #0097DA;
+  background-color: #0097DA;
+  border-radius: 21px;
+  border-width: 15px;
+  height: 50px;
+}
+
+#get_started:hover{
+  color: #B3EEF5;
+  transition: 0.2s linear; 
+}
+
+/* EVENTS */
+
+.event {
+  font-style: Poppins;
+  background-color: #B3EEF5;
+  padding: 1rem 7% 1.4rem;
+  /* border: 3px solid red; */
+  margin-top: -10rem;
+}
+.event h1{
+  font-family: 'Poppins', sans-serif;
+  color: #4C64AB;
+  font-size: 96px;
+}
+
+.event h2, .event h3{
+  position: relative;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  color: #2749AD;
+  font-size: 48px;   
+}
+
+.event h3{
+ left: 28%;
+ margin-top: 5rem;
+ margin-bottom: 1rem;
+}
+
+.event h2{
+  margin-bottom: 1rem;
+}
+
+h2::after{
+  content: "";
+  position: absolute;
+  bottom: -8px; 
+  left: 0.1%; 
+  width: 330px; 
+  height: 6px; 
+  background-color: #4DA9E5;
+  transform: rotate(1deg); 
+  transform-origin: center;
+}
+
+h3::after{
+  content: "";
+  position: absolute;
+  bottom: -18px; 
+  right: 0.1%; 
+  width: 330px; 
+  height: 6px; 
+  background-color: #4DA9E5;
+  transform: rotate(1deg); 
+  transform-origin: center;
+}
+
+.event p{
+  font-family: 'Montserrat', sans-serif;
+  color: #3974D3;
+  font-size: 24px;
+}
+
+.event .row2{
+  margin-top: -2rem;
+}
+
+.event .row1, .event .row2{
+  display: flex;
+}
+
+.event .row1 .event1-img, .event .row1 .row2 .event2-img {
+  flex: 1 1 45rem;
+  margin-top: -12rem;
+}
+
+.event .row1 .event1-img img, .event .row1 .row2 .event2-img img{
+  width: 100%;
+}
+
+.event .row1 .event1-img img{
+  margin-left: 5rem;
+}
+
+.event .row1 .content1, .event .row1 .row2 .content2{
+  flex: 1 1 750px;
+  padding:  0 1 rem;
+}
+
+.event .row2 .content2 p{
+  text-align: right;
+  margin-left: 7rem;
+  width: 86.5%;
+}
+
+/* ABOUT US */
+
+.about_us{
+  background-color: #4DA9E5;
+  margin: -22px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  /* border: 3px solid black; */
+}
+
+.about_us h1{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 96px;
+  margin-top: 100px;
+  font-weight: 600;
+  line-height: 144px;
+  text-align: center;
+  /* border: red solid 3px; */
+}
+
+.about_us p{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39.01px;
+  text-align: left;
+  position: relative;
+  bottom: 280px;
+  left: 245px;
+  max-width: 810px;
+  /* border: red solid 3px; */
+}
+
+.about_us img{
+  align-items: left;
+  width: 280px;
+  position: relative;
+  right: 75px;
+  /* border: red solid 3px; */
+}
+
+/* CONTACT US */
+
+.contact_us{
+  background-color: #3A75D4;
+  margin: -22px 0px 0px 0px;
+  /* border: 3px solid red; */
+}
+
+.contact_us {
+  background-color: #3A75D4;
+  margin: -22px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200vh;
+}
+
+.contact_us h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 96px;
+  color: #FFFFFF;
+  margin-bottom: 70px;
+}
+
+.wrp {
+  width: 829px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+
+.box1 {
+  position: relative;
+  width: 829px;
+  height: 86px; 
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.box2 {
+  margin-top: 4rem;
+  position: relative;
+  width: 829px;
+  height: 86px; 
+  background-color: #FFFFFF;
+  border-radius: 11px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.box3 {
+  margin-top: 4rem;
+  position: relative;
+  width: 829px;
+  height: 384px; 
+  background-color: #FFFFFF;
+  border-radius: 11px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.box1 input, .box2 input, .box3 input{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border: none;
+  padding: 20px 10px 5px 35px; 
+  font-size: 16px;
+  outline: none;
+}
+
+
+.box3 input{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border: none;
+  padding: 20px 10px 5px 35px; 
+  text-align: justify;
+  font-size: 16px;
+  outline: none;
+}
+
+
+
+.box1 input:focus, .box2 input:focus, .box3 input:focus{
+  outline: none;
+}
+
+.box1 label, .box2 label{
+  position: absolute;
+  top: 50%;
+  left: 35px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #747373;
+  pointer-events: none; 
+  transition: all 0.2s ease-in-out;
+}
+
+.box3 label{
+  position: absolute;
+  top: 10%;
+  left: 35px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #747373;
+  pointer-events: none; 
+  transition: all 0.2s ease-in-out;
+}
+
+
+.box1 input:focus + label,
+.box1 input:not(:placeholder-shown) + label, 
+.box2 input:focus + label, 
+.box2 input:not(:placeholder-shown) + label,
+.box3 input:focus + label,
+.box3 input:not(:placeholder-shown) + label{
+  top: 9px;
+  font-size: 10px;
+  color: #3A75D4; 
+}
+
+
+.contact_us button{
+  color:solid #111111;
+  font-size: 24px;
+  background-color: #FFFFFF;
+  height: 68px;
+  width: 165px;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 11px;
+  font-weight: bold;
+  margin-top: 5rem;
+}
+
+.button{
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #2749AD;
+  margin: -22px 0px 0px 0px;
+  height: 586px;
+  /* border: 3px solid red; */
+}
+
+.footer, .logo_footer {
+  padding-left: 20px;
+  /* border: red 3px solid;  */
+}
+
+#BINUS_University_White_1 {
+  margin-top: 100px;
+  width: 396px;
+  height: 244px;
+  left: 8px;
+}
+
+#HIMTI_big_white{
+  position: relative;
+  top: 20px;
+}
+
+.social_tag {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 45.98px;
+  color: #ffffff;
+  padding: 0px;
+  position: relative;
+  left: 1270px;
+  bottom: 305px;
+  margin-bottom: 35px;
+  margin-right: 1268px;
+  margin-left: -100px;
+  /* border: red 3px solid; */
+}
+
+.social_tag table {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 45.98px;
+  color: #ffffff;
+  padding: 0px;
+  position: relative;
+  top: 70px;
+  margin-bottom: -45px;
+  /* border: red solid 3px; */
+}
+
+.social_tag table td {
+  border-style: none;
+  margin-left: 20px;
+  /* border: red solid 3px; */
+}
+
+#instagram {
+  width: 39.91px;
+  height: 39.91px;
+  margin-right: 20px;
+  margin-top: 20px
+  /* border: red 3px solid; */
+}
+
+#youtube {
+  width: 44.95px;
+  height: 29.98px;
+  margin-right: 15px;
+  margin-top: 10px;
+  /* border: red 3px solid; */
+}
+
+#tiktok {
+  width: 39.32px;
+  height: 44.94px;
+  margin-right: 20.5px;
+  margin-top: 10px;
+  /* border: red 3px solid; */
+}
+
+#copyright {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 45.98px;
+  width: auto;
+  margin-left: -20px;
+  margin-right: 0px;
+  color: #ffffff;
+  background-color: #2749AD;
+  padding-bottom: 20px;
+  margin-top: -8rem;
+  /* border: red 3px solid; */
+}
+
+
+
+/* Tablet */
+@media (max-width: 768px){
+  body{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    overflow-x: hidden;
+
+  }
+
+  .navbar{
+    font-size: 20px;
+  }
+  #HIMTI_STUDY_TOUR{
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 100px;
+    /* border: 3px solid red; */
+  }
+
+  .Poppins p{
+    font-size: 18px;
+  }
+  #get_started{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .fitted_image{
+    height: 50px;
+    margin: -110px 0 0 0;
+    padding-bottom: 564px;
+  }
+
+  .event{
+    height: 45rem;
+  }
+  .event h1{
+    font-size: 70px;
+  }
+
+  .event p{
+    font-size: 12px;
+  }
+
+  .event h2, .event h3{
+    font-size: 30px;
+  }
+
+  .event2-img img{
+    width: 250px;
+    height: 250px;
+    right: 2rem;
+  }
+
+  .event1-img img{
+    margin-top: 8rem;
+  }
+
+  .content2 h3{
+    margin-left: 3rem;
+  }
+
+  h2::after{
+    width: 202px; 
+    height: 4px; 
+    background-color: #4DA9E5;
+    transform: rotate(1deg); 
+    transform-origin: center;
+  }
+
+  .row2 .content2{
+    margin-left: -10rem;
+  }
+
+  .about_us h1{
+    font-size: 32px;
+  }
+  .about_us p{
+    font-size: 16px;
+    max-width: 810px;
+    margin-top: 20rem;
+    margin-right: 25rem;
+    line-height: 24px;
+  }
+
+  .about_us img{
+    margin-left:22rem;
+  }
+
+
+    .contact_us {
+      height: 100vh;
+      padding: 20px;
+    }
+  
+    .wrp {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .box1, .box2, .box3 {
+      width: 100%;
+      height: auto;
+      margin-top: 2rem;
+    }
+  
+    .box1 input, .box2 input, .box3 input {
+      padding: 15px 10px 5px 35px;
+      font-size: 14px;
+    }
+  
+    .box1 label, .box2 label, .box3 label {
+      font-size: 14px;
+    }
+  
+    .contact_us button {
+      width: 150px;
+      font-size: 18px;
+    }
+
+    .footer {
+      background-color: #2749AD;
+      margin: -22px 0px 0px 0px;
+      height: 586px;
+    }
+    
+    .footer, .logo_footer {
+      padding-left: 20px;
+    }
+    
+    #BINUS_University_White_1 {
+      margin-top: 100px;
+      width: 396px;
+      height: 244px;
+      left: 8px;
+    }
+    
+    #HIMTI_big_white{
+      position: relative;
+      top: 20px;
+    }
+    
+    .social_tag {
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight: 400;
+      font-size: 29px;
+      line-height: 45.98px;
+      color: #ffffff;
+      padding: 0px;
+      position: relative;
+      left: 1270px;
+      bottom: 305px;
+      margin-bottom: 35px;
+      margin-right: 1268px;
+      margin-left: -100px;
+    }
+    
+    .social_tag table {
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight: 400;
+      font-size: 29px;
+      line-height: 45.98px;
+      color: #ffffff;
+      padding: 0px;
+      position: relative;
+      top: 70px;
+      margin-bottom: -45px;
+    }
+    
+    .social_tag table td {
+      border-style: none;
+      margin-left: 20px;
+    }
+    
+    #instagram {
+      width: 39.91px;
+      height: 39.91px;
+      margin-right: 20px;
+      margin-top: 20px;
+    }
+    
+    #youtube {
+      width: 44.95px;
+      height: 29.98px;
+      margin-right: 15px;
+      margin-top: 10px;
+    }
+    
+    #tiktok {
+      width: 39.32px;
+      height: 44.94px;
+      margin-right: 20.5px;
+      margin-top: 10px;
+    }
+    
+    #copyright {
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 45.98px;
+      width: auto;
+      margin-left: -20px;
+      margin-right: 0px;
+      color: #ffffff;
+      background-color: #2749AD;
+      padding-bottom: 20px;
+      margin-top: -8rem;
+    }
+    
+  }
+  
+
+
+
+
+
+/* mobile phone */
+@media (max-width: 450px){
+  body{
+    width: auto;
+    height: auto;
+    padding: 10px;
+  }
+}
